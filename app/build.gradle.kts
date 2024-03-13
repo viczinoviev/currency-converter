@@ -23,6 +23,16 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+
+    // json
+    implementation("org.json:json:20231013")
+
+    // logger
+    implementation("org.slf4j:slf4j-api:2.0.10")
+    implementation("org.slf4j:slf4j-simple:2.0.10")
+
+    // dotenv
+    implementation("io.github.cdimascio:dotenv-java:3.0.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
